@@ -44,9 +44,10 @@ body{
     padding-top: 2px;
     width: 300px;
     height: 40px;
-    background-color: rgba(48, 54, 62, 0.66);
+    background-color: rgba(21, 23, 26, 0.747);
     text-align: center;
     border-radius: 15px;
+    opacity: 0.8;
 }
 
 .links:hover{
@@ -57,6 +58,7 @@ body{
     color: #fff;
     text-decoration: none;
     font-size: 1.3em;
+    text-align: center;
 }
 
 .links a:hover{
