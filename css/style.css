@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: url(../imagens/FundoTeste3.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.row .image_perf{
+    padding-top: 45px;
+}
+
+.row .image_perf img{
+    width: 120px;
+}
+
+.row .caption{
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.row .caption a{
+    text-decoration: none;
+    font-family: 'Fredokai', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f6f2f2;
+}
+
+.links{
+    margin-top: 5px;
+    padding-top: 2px;
+    width: 300px;
+    height: 40px;
+    background-color: rgba(48, 54, 62, 0.66);
+    text-align: center;
+    border-radius: 15px;
+}
+
+.links:hover{
+    background-color: rgba(25, 30, 36, 0.80);
+}
+
+.links a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+.links a:hover{
+    color: #EFB037;
+}
+
+.IconGit{
+    width: 40px;
+    display: flex;
+    margin-left: 56px;
+    position: absolute;
+}
+
+.IconLinkedin{
+    width: 30px;
+    margin-left: 60px;
+    display: flex;
+    position: absolute;
+}
+
+.IconWeb{
+    width: 45px;
+    display: flex;
+    margin-left: 55px;
+    position: absolute;
+}
+
+.IconInstagram{
+    width: 39px;
+    display: flex;
+    margin-left: 60px;
+    position: absolute;
+}
+
+/*.IconInstagram2{*/
+/*    width: 40px;*/
+/*    display: flex;*/
+/*    margin-left: 25px;*/
+/*    position: absolute;*/
+/*}*/
+
+.IconCheck{
+    width: 39px;
+    display: flex;
+    margin-left: 62px;
+    position: absolute;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+}
+
+.rodape p{
+    font-size: 18px;
+    color: #ffffff;
+}
+
+@media (min-width: 720px){
+    body{
+        background: url(../imagens/FundoTeste3.jpg) no-repeat center center;
+        background-size: cover;
+        height: 100vh;
+    }
+    .row .image_perf img {
+        width: 180px;
+    }
+    .row .caption{
+        padding-top: 25px;
+        padding-bottom: 70px;
+    }
+
+    .row .caption a{
+        text-decoration: none;
+        font-family: 'Fredokai', sans-serif;
+        font-weight: 600;
+        color: #f6f2f2;
+        font-size: 1.5em;
+    }
+
+    .caption a:hover{
+        color: #7a788ad7;
+    }
+
+    .links{
+        margin-top: 8px;
+        padding-top: 5px;
+        width: 650px;
+        background-color: rgba(50, 54, 62, 0.8);
+        text-align: center;
+    }
+
+
+    .rodape{
+        display: block;
+        margin-top: -35px;
+        text-align: center;
+    }
+
+    .rodape p{
+        font-size: 25px;
+        color: #ffffff;
+    }
+}
