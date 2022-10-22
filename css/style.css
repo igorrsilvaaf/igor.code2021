@@ -47,11 +47,11 @@ body{
     background-color: rgba(21, 23, 26, 0.747);
     text-align: center;
     border-radius: 15px;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .links:hover{
-    background-color: rgba(25, 30, 36, 0.80);
+    background-color: #7C86CE;
 }
 
 .links a{
@@ -62,7 +62,7 @@ body{
 }
 
 .links a:hover{
-    color: #EFB037;
+    color: #626470;
 }
 
 .IconGit{
@@ -120,7 +120,7 @@ body{
 
 @media (min-width: 720px){
     body{
-        background: url(../imagens/FundoTeste4.jpg) no-repeat center center;
+        background: url(../imagens/FundoTeste6.jpg) no-repeat center center;
         background-size: cover;
         height: 100vh;
     }
@@ -150,6 +150,7 @@ body{
         width: 650px;
         background-color: rgba(50, 54, 62, 0.8);
         text-align: center;
+        opacity: 0.9;
     }
 
 
