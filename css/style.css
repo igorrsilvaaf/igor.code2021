@@ -42,7 +42,7 @@ body{
 .links{
     margin-top: 10px;
     padding-top: 2px;
-    width: 420px;
+    width: 400px;
     height: 40px;
     background-color: rgba(21, 23, 26, 0.747);
     text-align: center;
@@ -157,6 +157,10 @@ body{
         
     }
 
+    .links a{
+        padding-top: 12px;
+    }
+
     .rodape{
         display: block;
         margin-top: -35px;
@@ -166,5 +170,20 @@ body{
     .rodape p{
         font-size: 25px;
         color: #c3c8f5;
+    }
+}
+
+@media (max-width: 400px) {
+    .links{
+        margin-top: 10px;
+        padding-top: 2px;
+        width: 300px;
+        height: 40px;
+        background-color: rgba(21, 23, 26, 0.747);
+        text-align: center;
+        border-radius: 15px;
+        opacity: 0.9;
+        text-transform: uppercase;
+        letter-spacing: 9px;
     }
 }
