@@ -173,11 +173,11 @@ body{
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 500px) {
     .links{
         margin-top: 10px;
         padding-top: 2px;
-        width: 250px;
+        width: 350px;
         height: 40px;
         background-color: rgba(21, 23, 26, 0.747);
         text-align: center;
@@ -186,4 +186,13 @@ body{
         text-transform: uppercase;
         letter-spacing: 9px;
     }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
 }
+
