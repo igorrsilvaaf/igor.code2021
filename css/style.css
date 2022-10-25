@@ -95,12 +95,12 @@ body{
     position: absolute;
 }
 
-/*.IconInstagram2{*/
-/*    width: 40px;*/
-/*    display: flex;*/
-/*    margin-left: 25px;*/
-/*    position: absolute;*/
-/*}*/
+.IconWhats{
+    width: 34px;
+    display: flex;
+    margin-left: 34px;
+    position: absolute;
+}
 
 .IconCheck{
     width: 39px;
