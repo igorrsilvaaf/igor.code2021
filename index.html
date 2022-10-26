@@ -61,6 +61,18 @@
         <footer class="rodape">
             <p class="rodape">Igor da Silva &copy; 2022</p>
         </footer>
-<script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+
+    <!--Efeito-->
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".links"), {
+            max: 25,
+            speed: 400
+        });
+        
+        //It also supports NodeList
+        VanillaTilt.init(document.querySelectorAll(".your-element"));
+    </script>
 </body>
 </html>
