@@ -107,6 +107,13 @@ body{
     position: absolute;
 }
 
+.IconMasterCard{
+     width: 38px;
+    display: flex;
+    margin-left: 33px;
+    position: absolute;
+}
+
 .IconWhats{
     width: 34px;
     display: flex;
