@@ -177,7 +177,7 @@ body{
     }
 
     .links a{
-        padding-top: 12px;
+        padding-top: 9px;
     }
 
     .rodape{
@@ -206,6 +206,10 @@ body{
         letter-spacing: 9px;
     }
 
+    .links a {
+        font-size: 15px;
+    }
+
     .row{
         display: flex;
         flex-direction: column;
@@ -213,5 +217,55 @@ body{
         width: 100%;
         height: 100%;
     }
+
+    .IconGit{
+        width: 35px;
+        display: flex;
+        margin-left: 10px;
+        position: absolute;
+    }
+    
+    .IconLinkedin{
+        width: 27px;
+        margin-left: 10px;
+        display: flex;
+        position: absolute;
+    }
+    
+    .IconWeb{
+        width: 35px;
+        display: flex;
+        margin-left: 8px;
+        position: absolute;
+    }
+    
+    .IconInstagram {
+        width: 30px;
+        display: flex;
+        margin-left: 10px;
+        position: absolute;
+    }
+    
+    .IconMasterCard{
+        width: 28px;
+        display: flex;
+        margin-left: 10px;
+        position: absolute;
+    }
+    
+    .IconWhats{
+        width: 24px;
+        display: flex;
+        margin-left: 14px;
+        position: absolute;
+    }
+    
+    .IconCheck{
+        width: 29px;
+        display: flex;
+        margin-left: 10px;
+        position: absolute;
+    }
+
 }
 
