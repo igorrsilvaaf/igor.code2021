@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0ef52f78-f182-4198-81f5-9f5b63ab1d96" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +33,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="link" />
-                    <option name="lastUsedInstant" value="1668119892" />
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1668129314" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1646703081" />
+                    <option name="branchName" value="link" />
+                    <option name="lastUsedInstant" value="1668119892" />
                   </RecentBranch>
                 </list>
               </option>
@@ -105,7 +104,7 @@
       <workItem from="1656808294875" duration="781000" />
       <workItem from="1657331162452" duration="1827000" />
       <workItem from="1658796732200" duration="209000" />
-      <workItem from="1668118492188" duration="3036000" />
+      <workItem from="1668118492188" duration="3417000" />
     </task>
     <servers />
   </component>
